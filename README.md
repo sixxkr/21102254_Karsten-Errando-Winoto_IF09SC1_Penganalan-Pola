@@ -1,0 +1,1 @@
+# 21102254_Karsten-Errando-Winoto_IF09SC1_Penganalan-Pola
