@@ -1,5 +1,6 @@
-# 21102254_Karsten-Errando-Winoto_IF09SC1_Penganalan-Pola
+# Klasifikasi Morph Gecko  Menggunakan transformer
 
-Nama : Karsten Errando Winoto
-Kelas : IF 09 SC 1
-NIM : 21102254
+#Deskripsi Project
+
+
+
