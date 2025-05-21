@@ -4,6 +4,7 @@ import numpy as np
 import torch.nn as nn
 import torch.optim as optim 
 import cv2 as cv
+import matplotlib as plt
 from model.trans import CNNFormer
 from utils.data import TrajectoriesData
 
@@ -59,3 +60,19 @@ for epoch in range(EPOCH):
     loss_all.append(loss_batch)
     accuracy = total_correct / total_samples
     print(f'Epoch {epoch+1}/{EPOCH}, Loss: {loss_batch:.4f}, Accuracy: {accuracy:.4f}')
+    
+plt.figure(figsize=(12, 5))
+plt.subplot(1, 2, 1)
+plt.plot(range(EPOCH), loss_batch, label='Train Loss')
+plt.xlabel('Epoch')
+plt.ylabel('Loss')
+plt.legend()
+plt.title('Training')
+
+plt.subplot(1, 2, 2)
+plt.plot(range(EPOCH), accuracy, label='Train Accuracy')
+plt.xlabel('Epoch')
+plt.ylabel('Accuracy')
+plt.legend()
+plt.title('Training and Validation Accuracy')
+plt.show()
