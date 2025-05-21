@@ -22,11 +22,11 @@ This project is a deep learning-based image classification model that aims to cl
 
 - ✅ Total Images: ~60
 - ✅ Classes:
-  - `Boldstripe`
+  - **Boldstripe** :
     ![Boldstripe](DS_GEKCO/BOLDSTRIPE/4.jpg)
-  - `Albino`
+  - **Albino** :
     ![Boldstripe](DS_GEKCO/ALBINO/11.jpg)
-  - `Albino Boldstripe`
+  - **Albino Boldstripe** :
     ![Boldstripe](DS_GEKCO/BOLDSTIPE_ALBINO/3.jpg)
 - ✅ Split:
   - `train/`
